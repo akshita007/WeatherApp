@@ -1,0 +1,70 @@
+
+*{
+  margin:0px;
+  box-sizing: border-box;
+}
+.App{
+  background-image: url("../images/eve.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: ease-in 0.4s;
+}
+.App-night{
+  background-image: url("../images/night.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: ease-in 0.4s;
+}
+.App-container{
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title{
+    display:flex;
+    font-size:3rem;
+    justify-content:center;
+    font-weight: bolder;
+    color:rgb(26, 141, 131);
+    margin: 50px;
+    padding: 10px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 10px;
+}.Details{
+  display: flex;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+.Name{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-size: 3rem;
+  padding: 7px;
+  color: blanchedalmond;
+}
+.time{
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-size: 25px;
+  padding: 5px;
+  color: blanchedalmond;
+}
+.temp{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  margin-top: 15px;
+}
